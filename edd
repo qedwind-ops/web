@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Salazar Welding: soluciones en soldadura, fabricación y reparación de estructuras metálicas.">
+  <title>Salazar Welding | Soldadura y estructuras metálicas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="encabezado" id="inicio">
+    <nav class="navegacion contenedor" aria-label="Navegación principal">
+      <a class="marca" href="#inicio" aria-label="Salazar Welding, ir al inicio">
+        <img src="images/logo-salazar-welding.png" alt="Logo de Salazar Welding">
+      </a>
+      <input type="checkbox" id="menu-movil" class="menu-movil">
+      <label for="menu-movil" class="icono-menu" aria-label="Abrir o cerrar menú"><span></span><span></span><span></span></label>
+      <div class="enlaces">
+        <a class="activo" href="#inicio">Inicio</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="titulo-principal">
+      <div class="hero-fondo"></div>
+      <div class="hero-contenido contenedor">
+        <p class="etiqueta">FUERZA · PRECISIÓN · CALIDAD</p>
+        <h1 id="titulo-principal">Soluciones en <span>soldadura</span><br>y estructuras metálicas</h1>
+        <p class="hero-texto">Trabajo firme, acabados de calidad y compromiso en cada proyecto.</p>
+        <a class="boton" href="#servicios">Conoce nuestros servicios <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-linea" aria-hidden="true"></div>
+    </section>
+
+    <section class="nosotros seccion contenedor" id="nosotros">
+      <div class="nosotros-imagen imagen-marco">
+        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=1200&q=85" alt="Trabajo de soldadura en un taller metalúrgico" loading="lazy">
+        <span class="sello">SALAZAR<br><b>WELDING</b></span>
+      </div>
+      <div class="nosotros-texto">
+        <p class="sobrelinea">QUIÉNES SOMOS</p>
+        <h2>Metal trabajado<br>con <span>precisión.</span></h2>
+        <p>En Salazar Welding nos enfocamos en ofrecer soluciones de soldadura y trabajos metálicos con atención al detalle, responsabilidad y dedicación.</p>
+        <p>Buscamos que cada proyecto tenga un resultado resistente, funcional y bien terminado, cuidando la calidad del trabajo desde el inicio hasta el último acabado.</p>
+        <div class="valores">
+          <div><span class="valor-icono">✓</span><span>Compromiso con la calidad</span></div>
+          <div><span class="valor-icono">✓</span><span>Atención a cada detalle</span></div>
+          <div><span class="valor-icono">✓</span><span>Trabajo responsable y seguro</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="servicios seccion" id="servicios">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <div>
+            <p class="sobrelinea">LO QUE HACEMOS</p>
+            <h2>Nuestros <span>servicios</span></h2>
+          </div>
+          <p>Soluciones prácticas para proyectos de metal, reparación y fabricación.</p>
+        </div>
+        <div class="tarjetas">
+          <article class="tarjeta">
+            <div class="tarjeta-imagen">
+              <img src="https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=900&q=85" alt="Soldador trabajando con herramientas en un taller" loading="lazy">
+              <span class="numero">01</span>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Trabajos de soldadura</h3>
+              <p>Uniones y trabajos de soldadura para diferentes piezas y necesidades, con enfoque en la resistencia y el buen acabado.</p>
+              <a href="#contacto" aria-label="Consultar por trabajos de soldadura">Consultar <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="tarjeta">
+            <div class="tarjeta-imagen">
+              <img src="https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=900&q=85" alt="Estructuras y piezas metálicas de uso industrial" loading="lazy">
+              <span class="numero">02</span>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Estructuras metálicas</h3>
+              <p>Apoyo en fabricación y montaje de piezas y estructuras metálicas según las características de cada proyecto.</p>
+              <a href="#contacto" aria-label="Consultar por estructuras metálicas">Consultar <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="tarjeta">
+            <div class="tarjeta-imagen">
+              <img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=900&q=85" alt="Herramientas y materiales para trabajos de construcción y reparación" loading="lazy">
+              <span class="numero">03</span>
+            </div>
+            <div class="tarjeta-cuerpo">
+              <h3>Reparación y mantenimiento</h3>
+              <p>Revisión y reparación de piezas metálicas para recuperar su funcionalidad y prolongar su vida útil.</p>
+              <a href="#contacto" aria-label="Consultar por reparación y mantenimiento">Consultar <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="llamado">
+      <div class="contenedor llamado-contenido">
+        <div>
+          <p class="sobrelinea">¿TIENES UN PROYECTO?</p>
+          <h2>Hablemos de tu próxima<br><span>idea en metal.</span></h2>
+        </div>
+        <a class="boton boton-claro" href="#contacto">Contáctanos <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="contacto seccion contenedor" id="contacto">
+      <div class="contacto-intro">
+        <p class="sobrelinea">ESTAMOS PARA AYUDARTE</p>
+        <h2>Contacto</h2>
+        <p>¿Necesitas un trabajo de soldadura o quieres consultar por un proyecto? Comunícate con nosotros para conversar sobre lo que necesitas.</p>
+      </div>
+      <div class="contacto-panel">
+        <div class="dato-contacto">
+          <span class="dato-icono">☎</span>
+          <div><h3>Teléfono</h3><p>3165111039</p></div>
+        </div>
+        <div class="dato-contacto">
+          <span class="dato-icono">⌖</span>
+          <div><h3>Ubicación</h3><p>ARMENIA,QUINDIO</p></div>
+        </div>
+        <div class="dato-contacto">
+          <span class="dato-icono">@</span>
+          <div><h3>Correo electrónico</h3><p>edwin3223@hotmail.com</p></div>
+        </div>
+        <p class="nota-contacto">salazar-welding</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="contenedor pie-contenido">
+      <a class="pie-marca" href="#inicio">SALAZAR <span>WELDING</span></a>
+      <p>© 2026 Salazar Welding. Todos los derechos reservados.</p>
+      <a class="volver" href="#inicio">Volver arriba ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
